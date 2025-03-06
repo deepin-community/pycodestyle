@@ -2,7 +2,6 @@ Source: pycodestyle
 Section: python
 Priority: optional
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Uploaders: Ondřej Nový <onovy@debian.org>
 Build-Depends: debhelper-compat (= 13),
                dh-sequence-python3,
                python3-all,
@@ -22,8 +21,7 @@ Description: Python style guide checker (formerly called pep8)
 Package: pycodestyle
 Architecture: all
 Multi-Arch: foreign
-Depends: python3-pkg-resources,
-         python3-pycodestyle (=${binary:Version}),
+Depends: python3-pycodestyle (=${binary:Version}),
          ${misc:Depends},
          ${python3:Depends},
 Description: ${source:Synopsis}
