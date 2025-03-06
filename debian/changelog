@@ -1,3 +1,20 @@
+pycodestyle (2.12.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop dependency on python3-pkg-resources (Closes: #1083570)
+
+ -- Alexandre Detiste <tchet@debian.org>  Mon, 13 Jan 2025 22:08:55 +0100
+
+pycodestyle (2.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+  [ Ondřej Nový ]
+  * Remove myself from Uploaders.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 02 Nov 2024 16:32:07 -0400
+
 pycodestyle (2.11.1-1) unstable; urgency=medium
 
   * Team upload.
